@@ -23,7 +23,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vintagesucks/wiki' }
-    ]
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/vintagesucks/wiki/edit/main/:path'
+    },
   },
   srcExclude: [
     'README.md'
