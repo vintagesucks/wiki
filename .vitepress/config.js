@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/wiki/',
   title: "vintagesucks/wiki",
-  description: "Personal Wiki of vintagesucks",
+  description: "Personal knowledge base of vintagesucks",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

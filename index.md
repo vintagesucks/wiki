@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "vintagesucks/wiki"
-  tagline: Personal Wiki of vintagesucks
+  tagline: Personal knowledge base of vintagesucks
   actions:
     - theme: brand
       text: Introduction
