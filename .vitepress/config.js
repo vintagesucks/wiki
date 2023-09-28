@@ -9,7 +9,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/introduction/' }
+      { text: 'Wiki', link: '/introduction/' },
+      { text: 'PPA', link: 'https://vintagesucks.github.io/ppa/' },
     ],
 
     search: {
