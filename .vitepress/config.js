@@ -12,6 +12,10 @@ export default defineConfig({
       { text: 'Wiki', link: '/introduction/' }
     ],
 
+    search: {
+      provider: 'local'
+    },
+
     sidebar: [
       {
         text: 'Wiki',
