@@ -22,7 +22,13 @@ export default defineConfig({
         text: 'Wiki',
         items: [
           { text: 'Introduction', link: '/introduction/' },
-        ]
+        ],
+      },
+      {
+        text: 'Windows',
+        items: [
+          { text: 'PHP (WSL 2)', link: '/windows/php-wsl2' },
+        ],
       }
     ],
 
