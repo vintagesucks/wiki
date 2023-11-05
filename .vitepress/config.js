@@ -39,6 +39,8 @@ export default defineConfig({
     editLink: {
       pattern: 'https://github.com/vintagesucks/wiki/edit/main/:path'
     },
+
+    lastUpdated: true,
   },
   srcExclude: [
     'README.md'
