@@ -129,4 +129,7 @@ valet open phpinfo
 
 ## `takeout`
 
-🔜
+
+```bash
+composer global require tightenco/takeout
+```
