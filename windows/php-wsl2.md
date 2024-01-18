@@ -31,6 +31,12 @@ Configure Browser
 echo "export BROWSER='/mnt/c/Windows/explorer.exe'" >> ~/.bashrc
 ```
 
+Add user to Docker group
+
+```bash
+sudo usermod -aG docker ${USER}
+```
+
 Restart Ubuntu
 
 ```bash
