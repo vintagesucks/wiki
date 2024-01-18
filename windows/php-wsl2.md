@@ -138,7 +138,7 @@ composer global require tightenco/takeout
 
 
 ```bash
-curl -L https://bit.ly/n-install | bash
+curl -L https://bit.ly/n-install | bash -s -- -y
 ```
 
 ```bash
