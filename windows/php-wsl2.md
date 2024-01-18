@@ -133,3 +133,18 @@ valet open phpinfo
 ```bash
 composer global require tightenco/takeout
 ```
+
+## Node.js
+
+
+```bash
+curl -L https://bit.ly/n-install | bash
+```
+
+```bash
+source ~/.bashrc
+```
+
+```bash
+corepack enable
+```
