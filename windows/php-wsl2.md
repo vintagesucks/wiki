@@ -31,12 +31,6 @@ Configure Browser
 echo "export BROWSER='/mnt/c/Windows/explorer.exe'" >> ~/.bashrc
 ```
 
-Add user to Docker group
-
-```bash
-sudo usermod -aG docker ${USER}
-```
-
 Restart Ubuntu
 
 ```bash
@@ -53,6 +47,12 @@ wsl -t Ubuntu-22.04
 
 ```ps1
 ubuntu2204
+```
+
+Add user to Docker group
+
+```bash
+sudo usermod -aG docker ${USER}
 ```
 
 ## PHP
