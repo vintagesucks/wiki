@@ -52,7 +52,7 @@ ubuntu2204
 ## PHP
 
 ::: info
-This guide uses PHP 8.1, please adapt the following to suit your needs.
+This guide uses PHP 8.3, please adapt the following to suit your needs.
 :::
 
 ```bash
@@ -61,18 +61,18 @@ LC_ALL=en_US.UTF-8 sudo add-apt-repository -y ppa:ondrej/php
 
 ```bash
 sudo apt update && sudo apt install -y \
-  php8.1-bcmath \
-  php8.1-curl \
-  php8.1-dev \
-  php8.1-dom \
-  php8.1-fpm \
-  php8.1-gd \
-  php8.1-intl \
-  php8.1-mbstring \
-  php8.1-mysql \
-  php8.1-simplexml \
-  php8.1-sqlite3 \
-  php8.1-zip
+  php8.3-bcmath \
+  php8.3-curl \
+  php8.3-dev \
+  php8.3-dom \
+  php8.3-fpm \
+  php8.3-gd \
+  php8.3-intl \
+  php8.3-mbstring \
+  php8.3-mysql \
+  php8.3-simplexml \
+  php8.3-sqlite3 \
+  php8.3-zip
 ```
 
 ## Composer
