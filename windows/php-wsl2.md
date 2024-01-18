@@ -103,7 +103,7 @@ composer global require cpriego/valet-linux
 ```
 
 ```bash
-sudo apt install -y libnss3-tools jq xsel xdg-utils
+sudo apt install -y libnss3-tools jq xsel xdg-utils unzip
 ```
 
 ```bash
