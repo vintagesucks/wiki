@@ -1,0 +1,31 @@
+name: update yarn
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - name: Setup Node.js (.nvmrc)
+        uses: actions/setup-node@v4.0.2
+        with:
+            node-version-file: '.nvmrc'
+            cache: "yarn"
+      - name: update yarn
+        run: yarn set version latest && yarn dedupe
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6.0.2
+        with:
+            author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
+            committer: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
+            branch: 'github_actions/update-yarn'
+            title: 'update yarn'
+            commit-message: 'update yarn'
+            body: 'This pull request was [created automatically](https://github.com/vintagesucks/wiki/blob/main/.github/workflows/update-yarn.yml).'
+            labels: 'dependencies,javascript'
+            delete-branch: true
+            token: ${{ secrets.PAT }}
