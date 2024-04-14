@@ -27,7 +27,7 @@ export default defineConfig({
       {
         text: 'Windows',
         items: [
-          { text: 'PHP (WSL 2)', link: '/windows/php-wsl2' },
+          { text: 'PHP (Laravel Herd) ', link: '/windows/php-laravel-herd' },
         ],
       }
     ],

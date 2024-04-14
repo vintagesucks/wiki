@@ -2,6 +2,10 @@
 
 PHP development environment with WSL 2, Docker, [`valet-linux`](https://github.com/cpriego/valet-linux) and [`takeout`](https://github.com/tighten/takeout).
 
+::: warning
+This entry has been replaced by a new version of my Windows PHP setup: [PHP (Laravel Herd)](php-laravel-herd)
+:::
+
 ## Prerequisites
 Install the following:
 * [Windows Subsystem for Linux](https://www.microsoft.com/store/productid/9P9TQF7MRM4R)
