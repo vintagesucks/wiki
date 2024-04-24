@@ -1,0 +1,46 @@
+{
+  // --- GLOBAL ---
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "php.suggest.basic": false,
+  "terminal.integrated.altClickMovesCursor": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontSize": 14,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorTheme": "Night Owl",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  
+  // --- WINDOWS ---
+  "security.allowedUNCHosts": [
+    "wsl.localhost",
+    "wsl$"
+  ],
+  // @see https://vintagesucks.github.io/wiki/windows/php-laravel-herd.html
+  "terminal.integrated.env.windows": {
+    "PATH": "${env:PATH};${env:USERPROFILE}\\.config\\herd\\bin"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "icon": "terminal-powershell",
+      "path": "${env:USERPROFILE}\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe"
+    },
+    // @see https://vintagesucks.github.io/wiki/windows/c.html
+    "Visual Studio 2022 Developer PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": [
+        "-NoExit",
+        "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/Launch-VsDevShell.ps1"
+      ]
+    },
+    "Ubuntu-22.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu-22.04"
+      ]
+    }
+  },
+}

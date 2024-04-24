@@ -27,7 +27,15 @@ export default defineConfig({
       {
         text: 'Windows',
         items: [
-          { text: 'PHP (Laravel Herd) ', link: '/windows/php-laravel-herd' },
+          { text: 'Scoop', link: '/windows/scoop' },
+          { text: 'C', link: '/windows/c' },
+          { text: 'PHP', link: '/windows/php-laravel-herd' },
+        ],
+      },
+      {
+        text: 'Tools',
+        items: [
+          { text: 'VS Code', link: '/tools/vscode' },
         ],
       }
     ],

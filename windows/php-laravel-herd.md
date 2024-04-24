@@ -1,4 +1,4 @@
-# PHP (Laravel Herd)
+# PHP
 
 PHP development environment with Laravel Herd, Docker (WSL 2) and [`takeout`](https://github.com/tighten/takeout).
 
@@ -6,8 +6,8 @@ PHP development environment with Laravel Herd, Docker (WSL 2) and [`takeout`](ht
 This entry replaces a previous version of my Windows PHP setup: [PHP (WSL 2)](php-wsl2)
 :::
 
-
 ## Prerequisites
+
 Install the following:
 * [Windows Subsystem for Linux](https://www.microsoft.com/store/productid/9P9TQF7MRM4R)
 * [Ubuntu 22.04 for WSL](https://www.microsoft.com/store/productid/9PN20MSR04DW)

@@ -1,4 +1,4 @@
-# PHP (WSL 2)
+# PHP
 
 PHP development environment with WSL 2, Docker, [`valet-linux`](https://github.com/cpriego/valet-linux) and [`takeout`](https://github.com/tighten/takeout).
 
@@ -133,13 +133,11 @@ valet open phpinfo
 
 ## `takeout`
 
-
 ```bash
 composer global require tightenco/takeout
 ```
 
 ## Node.js
-
 
 ```bash
 curl -L https://bit.ly/n-install | bash -s -- -y
