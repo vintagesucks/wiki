@@ -1,12 +1,9 @@
 # Tools
 
-## [rxrx](https://metacpan.org/pod/rxrx)
+## rxrx
 
-Command line regex debugger
+[rxrx](https://metacpan.org/pod/rxrx) is a command line regex debugger
 
-<video autoplay muted loop playsinline>
-  <source src="/files/windows/tools/rxrx.mp4" type="video/mp4">
-</video>
 
 ```ps1
 cpanm Regexp::Debugger
@@ -48,4 +45,10 @@ To get a full list of commands:
 ```
 ?
 ```
+:::
+
+::: details Preview
+<video controls autoplay muted loop playsinline>
+  <source src="/files/windows/tools/rxrx.mp4" type="video/mp4">
+</video>
 :::
