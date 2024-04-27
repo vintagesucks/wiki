@@ -1,8 +1,12 @@
-# Windows Tools
+# macOS Tools
 
 ## rxrx
 
 [rxrx](https://metacpan.org/pod/rxrx) is a command line regex debugger
+
+::: warning
+See [perl](homebrew#perl)
+:::
 
 
 ```ps1

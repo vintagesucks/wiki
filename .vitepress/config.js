@@ -25,6 +25,13 @@ export default defineConfig({
         ],
       },
       {
+        text: 'macOS',
+        items: [
+          { text: 'Homebrew', link: '/macos/homebrew' },
+          { text: 'Tools', link: '/macos/tools' },
+        ],
+      },
+      {
         text: 'Windows',
         items: [
           { text: 'Scoop', link: '/windows/scoop' },
