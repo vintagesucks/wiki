@@ -30,6 +30,7 @@ export default defineConfig({
           { text: 'Scoop', link: '/windows/scoop' },
           { text: 'C', link: '/windows/c' },
           { text: 'PHP', link: '/windows/php-laravel-herd' },
+          { text: 'Tools', link: '/windows/tools' },
         ],
       },
       {

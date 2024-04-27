@@ -2,7 +2,7 @@
 
 C development environment.
 
-## Visual Studio Build Tools
+## [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/?q=build+tools)
 
 ```ps1
 Invoke-WebRequest -Uri 'https://aka.ms/vs/17/release/vs_BuildTools.exe' -OutFile "$env:TEMP\vs_BuildTools.exe"
