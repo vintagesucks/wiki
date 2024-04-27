@@ -4,6 +4,10 @@
 
 Command line regex debugger
 
+<video controls>
+  <source src="/files/windows/tools/rxrx.mp4" type="video/mp4">
+</video>
+
 ```ps1
 cpanm Regexp::Debugger
 ```
