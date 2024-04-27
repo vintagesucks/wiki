@@ -4,7 +4,7 @@
 
 Command line regex debugger
 
-<video controls>
+<video autoplay muted loop playsinline>
   <source src="/files/windows/tools/rxrx.mp4" type="video/mp4">
 </video>
 
