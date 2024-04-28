@@ -25,11 +25,19 @@ export default defineConfig({
         ],
       },
       {
+        text: 'macOS',
+        items: [
+          { text: 'Homebrew', link: '/macos/homebrew' },
+          { text: 'Tools', link: '/macos/tools' },
+        ],
+      },
+      {
         text: 'Windows',
         items: [
           { text: 'Scoop', link: '/windows/scoop' },
           { text: 'C', link: '/windows/c' },
           { text: 'PHP', link: '/windows/php-laravel-herd' },
+          { text: 'Tools', link: '/windows/tools' },
         ],
       },
       {
