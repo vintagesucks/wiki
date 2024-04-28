@@ -1,25 +1,29 @@
 # Homebrew
 
-## perl
+## perlbrew
 
-::: warning
-TBD: Should we use https://perlbrew.pl instead of relying on a directory that gets nuked on perl upgrades?
+We use `cpanm` installed via [Perlbrew](https://perlbrew.pl/) to setup [tools](/macos/tools#rxrx) like `rxrx`.
+
+::: info
+Installing Perl via `perlbrew` could take a while (~13m).
 :::
 
 ```sh
-brew install perl
+\curl -L https://install.perlbrew.pl | bash
 ```
 
 ```sh
-echo 'export PATH="$(brew --prefix perl)/bin:$PATH"' >> ~/.zshrc
-``` 
-
-## cpanminus
-
-::: warning
-See [perl](#perl)
-:::
+echo 'source ~/perl5/perlbrew/etc/bashrc' >> ~/.zshrc
+```
 
 ```sh
-brew install cpanminus
+perlbrew install stable
+```
+
+```sh
+perlbrew switch perl-version # e.g. perlbrew switch perl-5.38.2
+```
+
+```sh
+perlbrew install-cpanm
 ```

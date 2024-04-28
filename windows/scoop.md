@@ -14,7 +14,7 @@ scoop install cmake
 
 ## perl
 
-[Perl](https://strawberryperl.com/) is used to install [tools](/windows/tools#rxrx) like `rxrx`.
+We use `cpanm` installed via [Perl](https://strawberryperl.com/) to install [tools](/windows/tools#rxrx) like `rxrx`.
 
 ```ps1
 scoop install perl
