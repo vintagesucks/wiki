@@ -1742,7 +1742,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    vitepress: "npm:^1.2.0"
+    vitepress: "npm:^1.2.2"
   languageName: unknown
   linkType: soft
 
@@ -1980,9 +1980,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitepress@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "vitepress@npm:1.2.0"
+"vitepress@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "vitepress@npm:1.2.2"
   dependencies:
     "@docsearch/css": "npm:^3.6.0"
     "@docsearch/js": "npm:^3.6.0"
@@ -2010,7 +2010,7 @@ __metadata:
       optional: true
   bin:
     vitepress: bin/vitepress.js
-  checksum: 10c0/bcc944e3cadca3bf12e8ff325e9f766fe7a164001c3ceb403256f1edfa4f7b3a8df165a4e2e27fbd70c00844f1887b1944647ce76e77d84d9de31fe1d6ebd597
+  checksum: 10c0/2ecdf85d1b32136c34078b30877e07c2f7ab2a664bac0fbc4b5ef339d91a184ef0d5b27014f2d578b47c12ee0256f0f003dab2fb2310655b7466e4e47dcb9c21
   languageName: node
   linkType: hard
 
