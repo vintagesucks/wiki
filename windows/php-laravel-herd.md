@@ -110,6 +110,30 @@ To access the Herd binaries in the integrated terminal of VS Code, add the follo
 },
 ```
 
+## PhpManager
+
+Install [PhpManager](https://www.powershellgallery.com/packages/PhpManager) to install additional extensions:
+
+```ps1
+Install-Module -Name PhpManager
+```
+
+Example usage with `imagick` and PHP 8.3:
+
+```ps1
+Install-PhpExtension imagick -Path $env:USERPROFILE\.config\herd\bin\php83
+```
+
+```ps1
+Enable-PhpExtension imagick -Path $env:USERPROFILE\.config\herd\bin\php83
+```
+
+`Enable-PhpExtension` can also be used to enable default extensions such as `xsl` which are disabled by default:
+
+```ps1
+Enable-PhpExtension xsl -Path $env:USERPROFILE\.config\herd\bin\php83
+```
+
 ## Valet alias
 
 Add a `valet` alias for `herd` in case muscle memory kicks in:
