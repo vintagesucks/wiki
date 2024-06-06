@@ -21,13 +21,11 @@ Install and launch [Laravel Herd](https://herd.laravel.com/windows).
 
 ## Ubuntu
 
-Launch Ubuntu
+Setup Ubuntu 24:
 
 ```ps1
 ubuntu2404
 ```
-
-Restart Ubuntu
 
 ```bash
 exit
@@ -45,7 +43,7 @@ wsl -t Ubuntu-24.04
 ubuntu2404
 ```
 
-Add user to Docker group
+Add user to Docker group:
 
 ```bash
 sudo usermod -aG docker ${USER}
@@ -61,10 +59,12 @@ Make sure Docker is running if you get an error like `usermod: group 'docker' do
 [Takeout](https://github.com/tighten/takeout) is a CLI tool for spinning up docker containers for services like MySQL or Redis.
 
 ::: info
-This following PHP installation is only used to set up [`takeout`](https://github.com/tighten/takeout), not for actual development.
+The following PHP installation is only used to set up [`takeout`](https://github.com/tighten/takeout), not for actual development.
 
-This part can probably be replaced by using the [tighten/takeout](https://hub.docker.com/r/tighten/takeout) docker image in the future (waiting for [tighten/takeout#326](https://github.com/tighten/takeout/pull/326)).
+This part can probably be replaced in the future by using the upcoming [tighten/takeout](https://hub.docker.com/r/tighten/takeout) docker image (waiting for [tighten/takeout#326](https://github.com/tighten/takeout/pull/326)).
 :::
+
+Setup:
 
 ```bash
 sudo apt install -y php unzip
