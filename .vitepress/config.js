@@ -34,6 +34,7 @@ export default defineConfig({
       {
         text: 'Windows',
         items: [
+          { text: 'WinGet', link: '/windows/winget' },
           { text: 'Scoop', link: '/windows/scoop' },
           { text: 'C', link: '/windows/c' },
           { text: 'PHP', link: '/windows/php-laravel-herd' },
