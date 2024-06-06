@@ -35,11 +35,11 @@
         "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/Launch-VsDevShell.ps1"
       ]
     },
-    "Ubuntu-22.04 (WSL)": {
+    "Ubuntu-24.04 (WSL)": {
       "path": "C:\\WINDOWS\\System32\\wsl.exe",
       "args": [
         "-d",
-        "Ubuntu-22.04"
+        "Ubuntu-24.04"
       ]
     }
   },
