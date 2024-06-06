@@ -10,7 +10,7 @@ This entry replaces a previous version of my Windows PHP setup: [PHP (WSL 2)](ph
 
 Install the following:
 * [Windows Subsystem for Linux](https://www.microsoft.com/store/productid/9P9TQF7MRM4R)
-* [Ubuntu 22.04 for WSL](https://www.microsoft.com/store/productid/9PN20MSR04DW)
+* [Ubuntu 24.04 for WSL](https://www.microsoft.com/store/productid/9nz3klhxdjp5)
 * [Docker with WSL 2](https://docs.docker.com/docker-for-windows/wsl/)
 
 ## PHP
@@ -24,16 +24,7 @@ Install and launch [Laravel Herd](https://herd.laravel.com/windows).
 Launch Ubuntu
 
 ```ps1
-ubuntu2204
-```
-
-Disable Windows PATH
-
-```bash
-sudo bash -c "cat >> /etc/wsl.conf" << EOL
-[interop]
-appendWindowsPath = false
-EOL
+ubuntu2404
 ```
 
 Restart Ubuntu
@@ -43,15 +34,15 @@ exit
 ```
 
 ```ps1
-wsl --setdefault Ubuntu-22.04
+wsl --setdefault Ubuntu-24.04
 ```
 
 ```ps1
-wsl -t Ubuntu-22.04
+wsl -t Ubuntu-24.04
 ```
 
 ```ps1
-ubuntu2204
+ubuntu2404
 ```
 
 Add user to Docker group
@@ -72,11 +63,7 @@ This PHP installation is only used to set up [`tighten/takeout`](https://github.
 :::
 
 ```bash
-LC_ALL=en_US.UTF-8 sudo add-apt-repository -y ppa:ondrej/php
-```
-
-```bash
-sudo apt install -y php8.3 unzip
+sudo apt install -y php unzip
 ```
 
 ```bash
