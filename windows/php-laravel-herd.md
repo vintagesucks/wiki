@@ -58,8 +58,12 @@ Make sure Docker is running if you get an error like `usermod: group 'docker' do
 
 ## Takeout
 
+[Takeout](https://github.com/tighten/takeout) is a CLI tool for spinning up docker containers for services like MySQL or Redis.
+
 ::: info
-This PHP installation is only used to set up [`tighten/takeout`](https://github.com/tighten/takeout), not for actual development.
+This following PHP installation is only used to set up [`takeout`](https://github.com/tighten/takeout), not for actual development.
+
+This part can probably be replaced by using the [tighten/takeout](https://hub.docker.com/r/tighten/takeout) docker image in the future (waiting for [tighten/takeout#326](https://github.com/tighten/takeout/pull/326)).
 :::
 
 ```bash
