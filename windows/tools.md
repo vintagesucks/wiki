@@ -1,5 +1,20 @@
 # Windows Tools
 
+## Portainer
+
+```ps1
+docker run -d -p 9002:9000 `
+  --restart always `
+  -v //var/run/docker.sock:/var/run/docker.sock `
+  -v "$Env:USERPROFILE\Documents\docker\portainer:/data" `
+  -v "$Env:USERPROFILE\certs:/certs" `
+  --name portainer `
+  portainer/portainer-ce:2.5.1 `
+  --ssl --sslcert /certs/localhost.pem --sslkey /certs/localhost-key.pem
+```
+
+→ https://localhost:9002
+
 ## rxrx
 
 [rxrx](https://metacpan.org/pod/rxrx) is a command line regex debugger
