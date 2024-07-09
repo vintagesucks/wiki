@@ -281,6 +281,26 @@ echo 'export PATH="${HOME}/.composer/vendor/bin:$PATH"' >> ~/.zshrc
 
 Restart Terminal
 
+## ext-imagick
+
+```sh
+brew install shivammathur/extensions/imagick@8.3 shivammathur/extensions/imagick@8.2 shivammathur/extensions/imagick@8.1
+```
+
+```sh
+brew services restart nginx
+```
+
+## ext-redis
+
+```sh
+brew install shivammathur/extensions/redis@8.3 shivammathur/extensions/redis@8.2 shivammathur/extensions/redis@8.1
+```
+
+```sh
+brew services restart nginx
+```
+
 ## MySQL Client
 
 ```sh
@@ -297,6 +317,12 @@ echo 'export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"' >> ~/.zshrc
 
 ```sh
 brew install htop
+```
+
+## jq
+
+```sh
+brew install jq
 ```
 
 ## Kap
@@ -390,16 +416,6 @@ brew install cowsay
 
 ```sh
 brew install webp
-```
-
-## imagick
-
-```sh
-brew install shivammathur/extensions/imagick@8.3 shivammathur/extensions/imagick@8.2 shivammathur/extensions/imagick@8.1
-```
-
-```sh
-brew services restart nginx
 ```
 
 ## mkcert
