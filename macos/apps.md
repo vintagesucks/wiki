@@ -25,3 +25,7 @@ https://bjango.com/mac/istatmenus/
 ### iStat Menus Helper
 
 https://bjango.com/mas/istatmenus/helper/
+
+## Visual Studio Code
+
+https://code.visualstudio.com/
