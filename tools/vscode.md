@@ -13,7 +13,8 @@ Symlink `settings.json` to your local copy of this wiki:
 ::: code-group
 
 ```sh [macOS]
-# TODO
+rm ~/Library/Application\ Support/Code/User/settings.json
+ln -s ~/Documents/GitHub/wiki/tools/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ```
 
 ```ps1 [Windows]
