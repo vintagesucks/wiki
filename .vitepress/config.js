@@ -27,6 +27,7 @@ export default defineConfig({
       {
         text: 'macOS',
         items: [
+          { text: 'Apps', link: '/macos/apps' },
           { text: 'Homebrew', link: '/macos/homebrew' },
           { text: 'Tools', link: '/macos/tools' },
         ],
