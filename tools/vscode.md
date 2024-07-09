@@ -1,9 +1,5 @@
 # VS Code
 
-::: warning
-This entry is a work in progress.
-:::
-
 ## settings.json
 
 ::: tip

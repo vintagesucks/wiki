@@ -8,6 +8,8 @@ This entry is a work in progress.
 
 https://support.1password.com/get-the-apps/
 
+-> enable SSH Agent
+
 ## Firefox Developer Edition
 
 https://www.mozilla.org/firefox/developer/
@@ -17,6 +19,8 @@ https://www.mozilla.org/firefox/developer/
 ## GitHub Desktop
 
 https://github.com/apps/desktop
+
+-> Install Command Line Tool
 
 ## iStat Menus
 
@@ -29,3 +33,9 @@ https://bjango.com/mas/istatmenus/helper/
 ## Visual Studio Code
 
 https://code.visualstudio.com/
+
+-> Install code command
+
+## TIDAL
+
+https://tidal.com/download
