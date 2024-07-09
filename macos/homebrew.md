@@ -461,8 +461,8 @@ docker run -d \
   --name=mailpit \
   --restart unless-stopped \
   -v ~/certs:/certs \
-  -e MP_UI_SSL_CERT=/certs/localhost.pem \
-  -e MP_UI_SSL_KEY=/certs/localhost-key.pem \
+  -e MP_UI_TLS_CERT=/certs/localhost.pem \
+  -e MP_UI_TLS_KEY=/certs/localhost-key.pem \
   -e TZ=Europe/Berlin \
   -p 8025:8025 \
   -p 1025:1025 \
