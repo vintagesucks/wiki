@@ -502,6 +502,16 @@ takeout enable mysql
 * Volume: mysql8_data
 * Password: secret
 
+## Redis
+
+```sh
+takeout enable redis
+```
+
+* Port: 6379
+* Tag: latest
+* Volume: redis_data
+
 ## chromedriver
 
 ```sh
