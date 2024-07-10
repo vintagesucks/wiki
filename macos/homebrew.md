@@ -491,7 +491,7 @@ echo "sendmail_path = /opt/homebrew/bin/mailhog sendmail test@test -t --smtp-add
 composer global require tightenco/takeout -W
 ```
 
-## MySQL 8
+### MySQL 8
 
 ```sh
 takeout enable mysql
@@ -502,7 +502,7 @@ takeout enable mysql
 * Volume: mysql8_data
 * Password: secret
 
-## Redis
+### Redis
 
 ```sh
 takeout enable redis
@@ -511,6 +511,12 @@ takeout enable redis
 * Port: 6379
 * Tag: latest
 * Volume: redis_data
+
+### Meilisearch
+
+* Port: 7700
+* Tag: latest
+* Volume: meili_data
 
 ## chromedriver
 
