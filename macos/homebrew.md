@@ -603,3 +603,11 @@ brew install git-remote-codecommit
 ```sh
 brew install --cask safari-technology-preview
 ```
+
+## Session Manager plugin for the AWS CLI
+
+https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html
+
+```sh
+brew install --cask session-manager-plugin
+```
