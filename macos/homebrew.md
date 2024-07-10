@@ -597,3 +597,9 @@ brew install --cask ray
 ```sh
 brew install git-remote-codecommit
 ```
+
+## Safari Technology Preview
+
+```sh
+brew install --cask safari-technology-preview
+```
