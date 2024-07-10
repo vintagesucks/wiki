@@ -617,3 +617,9 @@ https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-wor
 ```sh
 brew install --cask session-manager-plugin
 ```
+
+## Asana
+
+```sh
+brew install --cask asana
+```
