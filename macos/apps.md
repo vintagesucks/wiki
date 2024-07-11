@@ -21,6 +21,7 @@ https://www.mozilla.org/firefox/developer/
 https://github.com/apps/desktop
 
 -> Install Command Line Tool
+-> Settings → Advanced: Disable usage stats
 
 ## iStat Menus
 
