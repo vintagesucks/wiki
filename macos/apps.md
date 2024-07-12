@@ -1,9 +1,5 @@
 # macOS Apps
 
-::: warning
-This entry is a work in progress.
-:::
-
 ## 1Password
 
 https://support.1password.com/get-the-apps/
