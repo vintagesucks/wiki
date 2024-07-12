@@ -28,4 +28,3 @@ jobs:
             body: 'This pull request was [created automatically](https://github.com/vintagesucks/wiki/blob/main/.github/workflows/update-yarn.yml).'
             labels: 'dependencies,javascript'
             delete-branch: true
-            token: ${{ secrets.PAT }}
