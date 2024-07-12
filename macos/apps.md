@@ -4,7 +4,8 @@
 
 https://support.1password.com/get-the-apps/
 
--> enable SSH Agent
+-> enable [SSH Agent](https://developer.1password.com/docs/ssh/agent)
+-> enable [signing Git commits with SSH](https://developer.1password.com/docs/ssh/git-commit-signing/)
 
 ## Firefox Developer Edition
 
