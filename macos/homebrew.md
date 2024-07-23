@@ -629,3 +629,9 @@ brew install --cask session-manager-plugin
 ```sh
 brew install --cask asana
 ```
+
+## Grype
+
+```sh
+brew install grype
+```
