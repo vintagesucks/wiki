@@ -635,3 +635,9 @@ brew install --cask asana
 ```sh
 brew install grype
 ```
+
+## Apidog
+
+```sh
+brew install --cask apidog
+```
