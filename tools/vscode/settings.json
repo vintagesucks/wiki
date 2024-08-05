@@ -121,6 +121,8 @@
 
   "php.debug.executablePath": "",
 
+  "phpstan.binCommand": ["valet", "php", "vendor/bin/phpstan"],
+
   "stylelint.enable": true,
 
   "redhat.telemetry.enabled": false,
