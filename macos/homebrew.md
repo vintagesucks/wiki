@@ -86,10 +86,6 @@ brew install --cask tableplus
 brew install --cask bartender
 ```
 
-## Lungo
-
-https://sindresorhus.com/lungo
-
 ## Numi
 
 ```sh

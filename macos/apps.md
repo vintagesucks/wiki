@@ -37,3 +37,15 @@ https://code.visualstudio.com/
 ## TIDAL
 
 https://tidal.com/download
+
+## Lungo
+
+https://sindresorhus.com/lungo
+
+## DevUtils
+
+https://apps.apple.com/app/devutils-app/id1533756032
+
+## Notchmeister
+
+https://apps.apple.com/app/notchmeister/id1599169747
