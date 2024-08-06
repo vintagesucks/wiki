@@ -49,3 +49,7 @@ https://apps.apple.com/app/devutils-app/id1533756032
 ## Notchmeister
 
 https://apps.apple.com/app/notchmeister/id1599169747
+
+## WorldWideWeb
+
+https://apps.apple.com/app/worldwideweb-desktop/id1621370168
