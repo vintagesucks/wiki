@@ -643,3 +643,9 @@ brew install --cask apidog
 ```sh
 brew install --cask httpie
 ```
+
+## act
+
+```sh
+brew install act
+```
