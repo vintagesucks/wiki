@@ -637,3 +637,9 @@ brew install grype
 ```sh
 brew install --cask apidog
 ```
+
+## Httpie
+
+```sh
+brew install --cask httpie
+```
