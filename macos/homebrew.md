@@ -510,6 +510,10 @@ takeout enable redis
 
 ### Meilisearch
 
+```sh
+takeout enable meilisearch --run="-e MEILI_NO_ANALYTICS=true -e MEILI_MASTER_KEY=aSampleMasterKey"
+```
+
 * Port: 7700
 * Tag: latest
 * Volume: meili_data
