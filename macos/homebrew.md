@@ -518,6 +518,26 @@ takeout enable meilisearch --run="-e MEILI_NO_ANALYTICS=true -e MEILI_MASTER_KEY
 * Tag: latest
 * Volume: meili_data
 
+### MinIO
+
+```sh
+takeout enable minio
+```
+
+* Port: 9000
+* Tag: latest
+* Volume: minio_data
+* Console Port: 9002
+* Domain: minio.test
+* User: minioadmin
+* Password: minioadmin
+
+```sh
+valet proxy minio http://localhost:9002 --secure
+```
+
+→ https://minio.test
+
 ## chromedriver
 
 ```sh
