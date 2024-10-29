@@ -679,3 +679,9 @@ brew install --cask httpie
 ```sh
 brew install act
 ```
+
+## GOG GALAXY 2.0
+
+```sh
+brew install --cask gog-galaxy
+```
