@@ -293,6 +293,12 @@ brew services restart nginx
 brew install shivammathur/extensions/redis@8.3 shivammathur/extensions/redis@8.2 shivammathur/extensions/redis@8.1
 ```
 
+## ext-xdebug
+
+```sh
+brew install shivammathur/extensions/xdebug@8.3 shivammathur/extensions/xdebug@8.2
+```
+
 ```sh
 brew services restart nginx
 ```
