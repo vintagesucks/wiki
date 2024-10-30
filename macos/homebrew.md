@@ -685,3 +685,9 @@ brew install act
 ```sh
 brew install --cask gog-galaxy
 ```
+
+## Transmit
+
+```sh
+brew install --cask transmit
+```
