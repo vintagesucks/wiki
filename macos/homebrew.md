@@ -534,9 +534,13 @@ takeout enable minio
 * Tag: latest
 * Volume: minio_data
 * Console Port: 9002
-* Domain: minio.test
+* Domain: minio.test,minio-api.test
 * User: minioadmin
 * Password: minioadmin
+
+```sh
+valet proxy minio-api http://localhost:9000 --secure
+```
 
 ```sh
 valet proxy minio http://localhost:9002 --secure
