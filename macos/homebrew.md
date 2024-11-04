@@ -548,6 +548,12 @@ valet proxy minio http://localhost:9002 --secure
 
 → https://minio.test
 
+## Forge CLI
+
+```sh
+composer global require laravel/forge-cli -W
+```
+
 ## chromedriver
 
 ```sh
