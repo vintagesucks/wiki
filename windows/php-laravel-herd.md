@@ -51,51 +51,16 @@ sudo usermod -aG docker ${USER}
 
 ::: tip
 Make sure Docker is running if you get an error like `usermod: group 'docker' does not exist`.
-
 :::
 
 ## Takeout
 
 [Takeout](https://github.com/tighten/takeout) is a CLI tool for spinning up docker containers for services like MySQL or Redis.
 
-::: info
-The following PHP installation is only used to set up [`takeout`](https://github.com/tighten/takeout), not for actual development.
-
-This part can probably be replaced in the future by using the upcoming [tighten/takeout](https://hub.docker.com/r/tighten/takeout) docker image (waiting for [tighten/takeout#326](https://github.com/tighten/takeout/pull/326)).
-:::
-
-Setup:
-
-```bash
-sudo apt install -y php unzip
-```
-
-```bash
-curl -sS https://getcomposer.org/installer | php \
-  && sudo mv composer.phar /usr/local/bin/composer
-```
-
-```bash
-echo 'export PATH=~/.config/composer/vendor/bin:$PATH' >> ~/.bashrc
-```
-
-```bash
-source ~/.bashrc
-```
-
-
-```bash
-composer global require tightenco/takeout
-```
-
-```bash
-exit
-```
-
-Add an alias to access `takeout` from Windows:
+Add an alias to access `takeout` via Docker:
 
 ```ps1
-Add-Content -Path $PROFILE.CurrentUserAllHosts -Value 'function takeout { wsl ~/.config/composer/vendor/bin/takeout @Args }'
+Add-Content -Path $PROFILE.CurrentUserAllHosts -Value 'function takeout { docker run --rm -v //var/run/docker.sock:/var/run/docker.sock -it tighten/takeout:latest $args }'
 ```
 
 Restart PowerShell.
@@ -103,6 +68,10 @@ Restart PowerShell.
 ```ps1
 takeout
 ```
+
+::: tip
+Make sure Docker is running if you get an error like `docker: error during connect`.
+:::
 
 ## VS Code 
 
