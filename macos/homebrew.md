@@ -488,9 +488,10 @@ echo "sendmail_path = /opt/homebrew/bin/mailhog sendmail test@test -t --smtp-add
 ```
 
 ## Takeout
+enabled via dotfiles, or:
 
 ```sh
-composer global require tightenco/takeout -W
+echo 'alias takeout="docker run --rm -v /var/run/docker.sock:/var/run/docker.sock --add-host=host.docker.internal:host-gateway -it tighten/takeout:latest"' >> ~/.zshrc
 ```
 
 ### MySQL 8
@@ -700,4 +701,10 @@ brew install --cask gog-galaxy
 
 ```sh
 brew install --cask transmit
+```
+
+## Hadolint
+
+```sh
+brew install hadolint
 ```
