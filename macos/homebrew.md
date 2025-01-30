@@ -290,7 +290,7 @@ brew services restart nginx
 ## ext-redis
 
 ```sh
-brew install shivammathur/extensions/redis@8.3 shivammathur/extensions/redis@8.2 shivammathur/extensions/redis@8.1
+brew install shivammathur/extensions/redis@8.4 shivammathur/extensions/redis@8.3 shivammathur/extensions/redis@8.2 shivammathur/extensions/redis@8.1
 ```
 
 ## ext-xdebug
