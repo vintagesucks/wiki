@@ -69,3 +69,9 @@ cd "$Env:USERPROFILE\certs"
 ```ps1
 mkcert localhost
 ```
+
+## Warp
+
+```ps1
+winget install Warp.Warp
+```
