@@ -30,7 +30,7 @@
   "git.enabled": true,
 
   "php.suggest.basic": false,
-  "php.validate.enable": false,
+  "php.validate.enable": false, // TODO: bad idea? no squiggly lines for bad code anymore? 👀
 
   "scss.validate": false,
 
