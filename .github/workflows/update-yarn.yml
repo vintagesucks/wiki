@@ -8,5 +8,3 @@ on:
 jobs:
   update-yarn:
     uses: vintagesucks/workflows/.github/workflows/update-yarn.yml@update-yarn/v1.0.0
-    secrets:
-      token: ${{ github.token }}
