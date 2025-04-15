@@ -75,3 +75,9 @@ mkcert localhost
 ```ps1
 winget install Warp.Warp
 ```
+
+## LibreOffice
+
+```ps1
+winget install --id=TheDocumentFoundation.LibreOffice -e
+```
