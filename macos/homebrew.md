@@ -708,3 +708,9 @@ brew install --cask transmit
 ```sh
 brew install hadolint
 ```
+
+## Tailscale
+
+```sh
+brew install --cask tailscale
+```
