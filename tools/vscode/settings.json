@@ -12,6 +12,9 @@
   "editor.renderWhitespace": "none",
   "editor.stickyScroll.enabled": false,
 
+  "emmet.excludeLanguages": [
+    "php"
+  ],
   "emmet.includeLanguages": {
     "twig": "html",
     "smarty": "html"
@@ -27,6 +30,7 @@
   "git.enabled": true,
 
   "php.suggest.basic": false,
+  "php.validate.enable": false, // TODO: bad idea? no squiggly lines for bad code anymore? 👀
 
   "scss.validate": false,
 
@@ -36,9 +40,6 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.tabs.enabled": true,
-
-  // @see https://github.com/vuejs/language-tools/issues/4424
-  "typescript.tsserver.experimental.useVsCodeWatcher": false,
 
   "workbench.colorTheme": "Night Owl",
   "workbench.iconTheme": "vscode-icons",
