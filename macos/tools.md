@@ -4,7 +4,7 @@
 
 [rxrx](https://metacpan.org/pod/rxrx) is a command line regex debugger
 
-```ps1
+```sh
 cpanm Regexp::Debugger
 ```
 
