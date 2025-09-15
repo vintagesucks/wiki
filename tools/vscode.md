@@ -1,9 +1,5 @@
 # VS Code
 
-::: warning
-This entry is a work in progress.
-:::
-
 ## settings.json
 
 ::: tip
@@ -29,3 +25,19 @@ New-Item -ItemType SymbolicLink -Path "${env:USERPROFILE}\AppData\Roaming\Code\U
 <!--@include: ./vscode/settings.json-->
 ```
 
+## keybindings.json
+
+```json
+[
+    {
+        "key": "cmd+[Semicolon]",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+shift+[Equal]",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    }
+]
+```
