@@ -23,3 +23,9 @@ scoop install perl
 ```ps1
 cpan App::cpanminus
 ```
+
+## mysql
+
+```ps1
+scoop install mysql
+```
