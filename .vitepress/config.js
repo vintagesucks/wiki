@@ -27,8 +27,12 @@ export default defineConfig({
       {
         text: 'macOS',
         items: [
+          { text: '.dotfiles', link: '/macos/dotfiles' },
+          { text: 'Apps', link: '/macos/apps' },
           { text: 'Homebrew', link: '/macos/homebrew' },
+          { text: 'Perlbrew', link: '/macos/perlbrew' },
           { text: 'Tools', link: '/macos/tools' },
+          { text: 'Misc.', link: '/macos/misc' },
         ],
       },
       {
